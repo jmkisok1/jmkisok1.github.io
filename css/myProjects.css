@@ -1,0 +1,55 @@
+.TopbarText{
+    margin:0;
+    padding:0;
+    border: 2px solid #303030;
+    background-color:#076d8f;
+  
+  }
+  li{
+    list-style-type:none;
+    display:inline-block;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    margin:-1px;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .TopLink{
+    color:#faf8f2;
+    font-family:Arial,Helvetica,serif;
+    font-size:3vw;
+    font-weight:bold;
+    text-decoration:none;
+    padding-right:0.8rem;
+    padding-left:0.8rem;
+    margin:-1px;
+    padding-bottom:0.5rem;
+    padding-top:0.5rem;
+    border-left: 1.5px solid #303030;
+    
+  }
+  .TopLink3L{
+    color:#230445;
+    font-family:Arial,Helvetica,serif;
+    font-size:3vw;
+    font-weight:bold;
+    text-decoration:none;
+    padding-right:0.8rem;
+    padding-left:0.8rem;
+    padding-bottom:0.5rem;
+    padding-top:0.5rem;
+    border-left: 1.5px solid #303030;
+  }
+  .TopLink:hover, .TopLink3L:hover{
+    color:#0c4a5e;
+    background-color:#ffffff;
+  }
+  .TopLink:active, .TopLink3L:active{
+    color:red;
+  }
+  body{
+    padding:0;
+    margin:0;
+  }
