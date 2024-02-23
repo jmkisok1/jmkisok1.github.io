@@ -74,7 +74,7 @@
     margin: 0.5rem 0 0 0.5rem;
     border-radius:50px;
   }
-  h2{
+  .HighlightsHeader > h2{
     text-decoration: underline;
     text-align: right;
     padding:0;
@@ -124,4 +124,21 @@
     width:150px;
     height:150px;
     margin:1rem;
+  }
+  .AcademicHighlightsList{
+    font-family:Arial,Verdana,sans-serif;
+    font-size:1.5vw;
+    text-align: left;
+    position:relative;
+    left:48rem;
+    padding:0px;
+    margin-right:65rem;
+    
+  }
+  .AcademicHiglightsHeader > h2{
+    font-family:Georgia,Verdana,sans-serif;
+    text-decoration:underline;
+    font-size:2rem;
+    position:relative;
+    left:53rem;
   }
