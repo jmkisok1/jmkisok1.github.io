@@ -55,25 +55,169 @@
   }
   #island{
     background-color:#525252;
-    margin-top:20px;
+    margin-top:50px;
     margin-left:120px;
     border:1px solid black;
     border-radius:50px;
     width:150px; height:200px;
   }
   .LeftBox{
-    height:500px;
+    height:650px;
     width:400px;
     background-color:#525252;
     padding:0;
-    margin:10px 0px 0px 10px;
+    margin:10px 0px 0px 0px;
     border:1px solid black;
     border-radius: 50px;
   }
   .LeftHeader > h2{
-    font-size:2vw;
+    font-size:200%;
     padding: 0;
     font-family:Arial,Verdana,sans-serif;
-    margin: 10px 0 0 40px;
+    margin: 10px 0 0 30px;
     white-space: nowrap;
+  }
+  .MiddleBox{
+    height:650px;
+    width: 400px;
+    background-color: #525252;
+    padding:0;
+    margin:-650px 0 0 555px;
+    border: 1px solid black;
+    border-radius:50px;
+  }
+  .MiddleHeader > h2{
+    font-size:200%;
+    font-family:Arial,Verdana,sans-serif;
+    margin:10px 0 0 80px;
+    
+  }
+  .RightBox{
+    height: 650px;
+    width: 400px;
+    background-color: #525252;
+    padding: 0;
+    margin: -652px 0 0 1105px;
+    border: 1px solid black;
+    border-radius:50px;
+  }
+  .RightHeader > h2{
+    font-size:200%;
+    font-family:Arial,Verdana,sans-serif;
+    margin:10px 0 0 115px;
+  }
+  #cardLog{
+    background-color:#525252;
+    margin-top:10px;
+    margin-left:120px;
+    border:1px solid black;
+    border-radius:50px;
+    width:150px; height:200px;
+  }
+  #webImage{
+    background-color:#525252;
+    margin-top:50px;
+    margin-left:120px;
+    border:1px solid black;
+    border-radius:50px;
+    width:150px; height:200px
+  }
+  .LeftDesc{
+    font-family:Arial,Verdana,sans-serif;
+    text-wrap: balance;
+    text-align: center;
+    font-weight: bold;
+    font-size:110%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top:25px;
+  }
+  .RuleLink:link,.RuleLink:visited,.RuleLink:focus{
+    color:black;
+    text-decoration: underline;
+  }
+  .RuleLink:hover{
+    color:white;
+  }
+  .RuleLink:active{
+    color:red;
+  }
+  .MidDesc{
+    font-family:Arial,Verdana,sans-serif;
+    text-wrap: balance;
+    text-align: center;
+    font-weight: bold;
+    font-size:110%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top:25px;
+  }
+  .RightDesc{
+    font-family:Arial,Verdana,sans-serif;
+    text-wrap: balance;
+    text-align: center;
+    font-weight: bold;
+    font-size:110%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top:25px;
+  }
+  .ZIP:link,.ZIP:visited{
+    color:white;
+    text-decoration: underline;
+  }
+  .ZIP:hover{
+    color:black;
+  }
+  .ZIP:active{
+    color:red;
+  }
+  .foot{
+    position:relative;
+    top:15rem;
+    background-color:grey;
+    padding-bottom:10rem;
+    text-align: center;
+    border-top:2px solid black;
+    font-size: 1.5vw;
+    font-family:Verdana,Arial,sans-serif;
+    color:#2b2b2b;
+  }
+  #PDF{
+    width:150px;
+    height:150px;
+    margin:1rem;
+    border-radius:100px;
+  }
+  #LinkedinIcon{
+    width:150px;
+    height:150px;
+    margin:1rem;
+  }
+  #Mail{
+    width:150px;
+    height:150px;
+    margin:1rem;
+  }
+  #GitIcon{
+    width:150px;
+    height:150px;
+    margin:1rem;
+  }
+  .AcademicHighlightsList{
+    font-family:Arial,Verdana,sans-serif;
+    font-size:1.5vw;
+    text-align: left;
+    position:relative;
+    left:48rem;
+    padding:0px;
+    margin-right:65rem;
+    
+  }
+  .AcademicHiglightsHeader > h2{
+    font-family:Georgia,Verdana,sans-serif;
+    text-decoration:underline;
+    font-size:2rem;
+    position:relative;
+    left:53rem;
   }

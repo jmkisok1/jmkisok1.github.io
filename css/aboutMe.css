@@ -57,12 +57,12 @@
   h1{
     font-family:"Georgia",sans-serif;
     font-weight:normal;
-    font-size:3vw;
+    font-size:300%;
     margin: 0.5rem 0 0 1rem;
   }
   .StartBlurb{
     font-family:Arial,Verdana,sans-serif;
-  font-size:1.7vw;
+  font-size:170%;
     margin-left:35rem;
     margin-top:-38rem;
     text-wrap: balance;
@@ -73,22 +73,22 @@
     padding:0;
     margin: 0.5rem 0 0 0.5rem;
     border-radius:50px;
+    border: 1 px solid black;
   }
   .HighlightsHeader > h2{
     text-decoration: underline;
-    text-align: right;
     padding:0;
     font-family:Georgia,Verdana,sans-serif;
     font-style: normal;
-    font-size:2rem;
-    margin: 0;
+    font-size:200%;
+    margin-right: 1000px;
     position:relative;
-    right:23rem;
+    left:54rem;
   }
   .ListsRefuseToWork{
     font-family:Arial,Verdana,sans-serif;
     border-spacing: 15px;
-    font-size:1.5vw;
+    font-size:150%;
     position:relative;
     left:45rem;
     top:2rem;
@@ -127,18 +127,20 @@
   }
   .AcademicHighlightsList{
     font-family:Arial,Verdana,sans-serif;
-    font-size:1.5vw;
+    font-size:150%;
     text-align: left;
     position:relative;
     left:48rem;
     padding:0px;
-    margin-right:65rem;
+    margin-right: 1000px;
     
   }
   .AcademicHiglightsHeader > h2{
+    margin-right:1000px;
+    padding-right:100px;
     font-family:Georgia,Verdana,sans-serif;
     text-decoration:underline;
-    font-size:2rem;
+    font-size:200%;
     position:relative;
     left:53rem;
   }
