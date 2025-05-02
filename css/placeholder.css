@@ -39,6 +39,7 @@ ul{
   padding-left:0.8rem;
   padding-bottom:0.5rem;
   padding-top:0.5rem;
+  border-left: 1.5px solid #303030;
 }
 .TopLink:hover, .TopLinkR:hover{
   color:#0c4a5e;
