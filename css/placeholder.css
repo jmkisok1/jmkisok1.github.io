@@ -29,7 +29,7 @@ ul{
   border-left: 1.5px solid #303030;
   
 }
-.TopLinkL{
+.TopLinkR{
   color:#230445;
   font-family:Arial,Helvetica,serif;
   font-size:3vw;
@@ -40,11 +40,11 @@ ul{
   padding-bottom:0.5rem;
   padding-top:0.5rem;
 }
-.TopLink:hover, .TopLinkL:hover{
+.TopLink:hover, .TopLinkR:hover{
   color:#0c4a5e;
   background-color:#ffffff;
 }
-.TopLink:active, .TopLinkL:active{
+.TopLink:active, .TopLinkR:active{
   color:red;
 }
 body{
