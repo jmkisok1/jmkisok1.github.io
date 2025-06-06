@@ -1,156 +1,161 @@
 .TopbarText{
-    margin:0;
-    padding:0;
-    border: 2px solid #303030;
-    background-color:#076d8f;
+  margin:0;
+  padding:0;
+  border: 2px solid #303030;
+  background-color:#076d8f;
+
+}
+li{
+  list-style-type:none;
+  display:inline-block;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  margin:-1px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.TopLink{
+  color:#faf8f2;
+  font-family:Arial,Helvetica,serif;
+  font-size:3vw;
+  font-weight:bold;
+  text-decoration:none;
+  padding-right:0.8rem;
+  padding-left:0.8rem;
+  margin:-1px;
+  padding-bottom:0.5rem;
+  padding-top:0.5rem;
+  border-left: 1.5px solid #303030;
   
-  }
-  li{
-    list-style-type:none;
-    display:inline-block;
-    padding-top:0.5rem;
-    padding-bottom:0.5rem;
-    margin:-1px;
-  }
-  ul{
-    margin: 0;
-    padding: 0;
-  }
-  .TopLink{
-    color:#faf8f2;
-    font-family:Arial,Helvetica,serif;
-    font-size:3vw;
-    font-weight:bold;
-    text-decoration:none;
-    padding-right:0.8rem;
-    padding-left:0.8rem;
-    margin:-1px;
-    padding-bottom:0.5rem;
-    padding-top:0.5rem;
-    border-left: 1.5px solid #303030;
-    
-  }
-  .TopLink2L{
-    color:#230445;
-    font-family:Arial,Helvetica,serif;
-    font-size:3vw;
-    font-weight:bold;
-    text-decoration:none;
-    padding-right:0.8rem;
-    padding-left:0.8rem;
-    padding-bottom:0.5rem;
-    padding-top:0.5rem;
-    border-left: 1.5px solid #303030;
-  }
-  .TopLink:hover, .TopLink2L:hover{
-    color:#0c4a5e;
-    background-color:#ffffff;
-  }
-  .TopLink:active, .TopLink2L:active{
-    color:red;
-  }
-  body{
-    padding:0;
-    margin:0;
-    background-color: #d9d9d9;
-  }
-  h1{
-    font-family:"Georgia",sans-serif;
-    font-weight:normal;
-    font-size:300%;
-    margin: 0.5rem 0 0 1rem;
-  }
-  .StartBlurb{
-    font-family:Arial,Verdana,sans-serif;
-  font-size:170%;
-    margin-left:30rem;
-    margin-top:-38rem;
-    text-wrap: balance;
-    text-align: left;
-    padding:0;
-  }
-  #PortraitAboutMe{
-    padding:0;
-    margin: 0.5rem 0 0 0.5rem;
-    border-radius:50px;
-    border: 1 px solid black;
-  }
-  .HighlightsHeader > h2{
-    text-decoration: underline;
-    padding:0;
-    font-family:Georgia,Verdana,sans-serif;
-    font-style: normal;
-    font-size:200%;
-    margin-right: 1000px;
-    position:relative;
-    left:54rem;
-  }
-  .ListsRefuseToWork{
-    font-family:Arial,Verdana,sans-serif;
-    border-spacing: 15px;
-    font-size:150%;
-    position:relative;
-    left:45rem;
-    top:2rem;
-  }
-  .foot{
-    position:relative;
-    top:15rem;
-    background-color:grey;
-    padding-bottom:10rem;
-    text-align: center;
-    border-top:2px solid black;
-    font-size: 1.5vw;
-    font-family:Verdana,Arial,sans-serif;
-    color:#2b2b2b;
-  }
-  #PDF{
-    width:150px;
-    height:150px;
-    margin:1rem;
-    border-radius:100px;
-  }
-  #LinkedinIcon{
-    width:150px;
-    height:150px;
-    margin:1rem;
-  }
-  #Mail{
-    width:150px;
-    height:150px;
-    margin:1rem;
-  }
-  #GitIcon{
-    width:150px;
-    height:150px;
-    margin:1rem;
-  }
-  .AcademicHighlightsList{
-    font-family:Arial,Verdana,sans-serif;
-    font-size:150%;
-    text-align: left;
-    position:relative;
-    left:48rem;
-    padding:0px;
-    margin-right: 1000px;
-    
-  }
-  .CertificatesList{
-    font-family:Arial,Verdana,sans-serif;
-    font-size:150%;
-    text-align: left;
-    position:relative;
-    left:48rem;
-    padding:0px;
-    margin-right: 1000px;
-    
-  }
-  .AcademicHiglightsHeader > h2{
-    margin-right:1000px;
-    padding-right:100px;
-    font-family:Georgia,Verdana,sans-serif;
-    text-decoration:underline;
-    font-size:200%;
-    position:relative;
-    left:53rem;
-  }
+}
+.TopLink2L{
+  color:#230445;
+  font-family:Arial,Helvetica,serif;
+  font-size:3vw;
+  font-weight:bold;
+  text-decoration:none;
+  padding-right:0.8rem;
+  padding-left:0.8rem;
+  padding-bottom:0.5rem;
+  padding-top:0.5rem;
+  border-left: 1.5px solid #303030;
+}
+.TopLink:hover, .TopLink2L:hover{
+  color:#0c4a5e;
+  background-color:#ffffff;
+}
+.TopLink:active, .TopLink2L:active{
+  color:red;
+}
+body{
+  padding:0;
+  margin:0;
+  background-color: #d9d9d9;
+}
+h1{
+  font-family:"Georgia",sans-serif;
+  font-weight:normal;
+  font-size:300%;
+  margin: 0.5rem 0 0 1rem;
+}
+.StartBlurb{
+  font-family:Arial,Verdana,serif;
+font-size:170%;
+  margin-left:30rem;
+  margin-top:-38rem;
+  text-wrap: balance;
+  text-align: left;
+  padding:0;
+}
+#PortraitAboutMe{
+  padding:0;
+  margin: 0.5rem 0 0 0.5rem;
+  border-radius:50px;
+  border: 1 px solid black;
+}
+.HighlightsHeader > h2{
+  text-decoration: underline;
+  padding:0;
+  font-family:Georgia,Verdana,serif;
+  font-style: normal;
+  font-size:200%;
+  margin-right: 1000px;
+  position:relative;
+  left:54rem;
+}
+.ListsRefuseToWork{
+  font-family:"Georgia",Verdana,serif;
+  border-spacing: 15px;
+  font-size:150%;
+  position:relative;
+  left:45rem;
+  top:2rem;
+}
+.AcademicHighlightsList{
+  font-family:Georgia,Arial,serif;
+  font-size:150%;
+  text-align: left;
+  position:relative;
+  left:48rem;
+  padding:0px;
+  margin-right: 1000px;
+  
+}
+.CertificatesList{
+  font-family:Georgia,Arial,serif;
+  font-size:150%;
+  text-align: left;
+  position:relative;
+  left:48rem;
+  padding:0px;
+  margin-right: 900px;
+}
+.AcademicHiglightsHeader > h2{
+  margin-right: 1000px;
+  font-family:Georgia,Verdana,serif;
+  text-decoration:underline;
+  font-size:200%;
+  position:relative;
+  left:61rem;
+}
+.certLink:hover{
+color:#4b42f5;
+}
+.certLink{
+color:#000000;
+text-decoration:none;
+}
+.foot{
+  position:relative;
+  top:15rem;
+  background-color:grey;
+  padding-bottom:10rem;
+  text-align: center;
+  border-top:2px solid black;
+  font-size: 1.5vw;
+  font-family:Verdana,Arial,sans-serif;
+  color:#2b2b2b;
+}
+#PDF{
+  width:150px;
+  height:150px;
+  margin:1rem;
+  border-radius:100px;
+}
+#LinkedinIcon{
+  width:150px;
+  height:150px;
+  margin:1rem;
+}
+#Mail{
+  width:150px;
+  height:150px;
+  margin:1rem;
+}
+#GitIcon{
+  width:150px;
+  height:150px;
+  margin:1rem;
+}
