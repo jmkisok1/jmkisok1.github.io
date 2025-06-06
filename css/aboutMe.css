@@ -65,6 +65,7 @@ h1{
   font-size:170%;
   margin-left:30rem;
   margin-top:-38rem;
+  margin-right:50px;
   text-wrap: balance;
   text-align: justify;
   padding:0;
@@ -109,7 +110,7 @@ h1{
   text-decoration:underline;
   font-size:200%;
   position:relative;
-  left:60rem;
+  left:59rem;
 }
 .CertificatesList{
   font-family:Georgia,Arial,serif;
