@@ -63,7 +63,7 @@
   .StartBlurb{
     font-family:Arial,Verdana,sans-serif;
   font-size:170%;
-    margin-left:35rem;
+    margin-left:30rem;
     margin-top:-38rem;
     text-wrap: balance;
     text-align: left;
@@ -126,6 +126,16 @@
     margin:1rem;
   }
   .AcademicHighlightsList{
+    font-family:Arial,Verdana,sans-serif;
+    font-size:150%;
+    text-align: left;
+    position:relative;
+    left:48rem;
+    padding:0px;
+    margin-right: 1000px;
+    
+  }
+  .CertificatesList{
     font-family:Arial,Verdana,sans-serif;
     font-size:150%;
     text-align: left;
