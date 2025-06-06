@@ -66,7 +66,7 @@ h1{
   margin-left:30rem;
   margin-top:-38rem;
   text-wrap: balance;
-  text-align: center;
+  text-align: justify;
   padding:0;
 }
 #PortraitAboutMe{
@@ -109,7 +109,7 @@ h1{
   text-decoration:underline;
   font-size:200%;
   position:relative;
-  left:62rem;
+  left:60rem;
 }
 .CertificatesList{
   font-family:Georgia,Arial,serif;
