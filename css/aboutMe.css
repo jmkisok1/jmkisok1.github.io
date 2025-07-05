@@ -121,10 +121,10 @@ h1{
   padding:0px;
   margin-right: 900px;
 }
-.CertLink:hover{
+.CertLink:hover, .CertLink2:hover{
 color:#4b42f5;
 }
-.CertLink{
+.CertLink, .CertLink2{
 color:#000000;
 text-decoration:none;
 }
